@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda Online KitKan</title>
+    <link href="./style/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <a href="./img/fondo.jpg" class="fondo" widtg="100%" height="100%"></a>       
+        <div class="logo">
+            <a href="./home.html" target="_blank">
+                <img src="./img/logo.jpg" alt="logo" width="160" height="120">
+            </a>
+        
+        </div>
+
+        <div class="menuDos">
+            <a href="./login.html" target="">
+                <img src="./img/login.png" alt="login" width="28px" height="28px">
+            </a>
+            
+        </div>
+        
+        <div class="menuDos2">
+            <a href="#" target="">
+                <img src="./img/carrito.png" alt="carrito" width="28px" height="28px">
+            </a>
+
+        </div>
+
+        
+        <section class="tiendaOnl">
+            <h2>Tú tienda Online de confianza:</h2>
+        </section>
+        <div class="nomTienda">
+            <strong>KitKan Shop</strong>
+
+        </div>
+        
+
+        <div class="buscarEnTienda">
+            <input type="search" value="buscar">
+
+        </div>
+
+        <!--Botones del menu de la pagina-->
+
+        <input type="checkbox" id="btnmenu">
+        <label for="btnmenu"><img src="./img/menu.png" alt="" width="30px" height="30px"></label>
+        <nav class="menuTienda">
+            <ul class="menuOpciones">
+                <li><a href="./index.html" target="" class="item">Inicio</a></li> 
+                <li><a href="./ropas.html" target="" class="item">Vestimentas</a></li>
+                <li><a href="./zapatillas.html" target="" class="item">Zapatillas</a></li>
+                <li><a href="./accesorios.html" target="" class="item">Accesorios</a></li>
+                <li><a href="./contacto.html" target="" class="item">Contacto</a></li>
+            </ul>
+        </nav>
+                
+            
+            
+
+        
+        
+        
+        
+    </header>
+
+    <section>
+    <!--Imagenes de productos de la tienda-->
+    <h4>ESCOGE LO QUE MAS TE INTERESA: </h4>
+    <div class="slTienda">
+        <ul>
+            <li><img src="./img/ropas.jpg" alt="ropas"></li>
+
+            <li><img src="./img/zapatillas.jpg" alt="zapatillas"></li>
+
+            <li><img src="./img/accesorios.jpg" alt="accesorios"></li>
+        </ul>
+    </div>
+    </section>
+
+    <section>
+    <!--Menus-->
+    <h4>MENU:</h4>
+    <div class="menu2">
+        <a href="./ropas.html">
+            <img src="./img/ropas2.jpg" alt="" width="80" height="80">
+            <h5>Ropas</h5>
+        </a>
+        <a href="./zapatillas.html">
+            <img src="./img/zapatillas2.jpeg" alt="" width="80" height="80">
+            <h5>Zapatillas</h5>
+        </a>
+        <a href="./accesorios.html">
+            <img src="./img/accesorios2.jpg" alt="" width="80" height="80">
+            <h5>Accesorios</h5>
+        </a> 
+    </div>
+    </section>
+
+    <section>
+    <h4>PRODUCTOS DESTACADOS:</h4>
+    <!--Productos destacados-->
+    <div class="menuDest">
+        <a href="./ropas.html">
+            <img src="./img/productoropa1.jpg" alt="" width="80" height="80">
+            <h5>Ropas</h5>
+            <p>$99.00</p>
+        </a>
+        <a href="./zapatillas.html">
+            <img src="./img/productozapatilla1.png" alt="" width="80" height="80">
+            <h5>Zapatillas</h5>
+            <p>$125.00</p>
+        </a>
+        <a href="./accesorios.html">
+            <img src="./img/productoaccesorio1.jpg" alt="" width="80" height="80">
+            <h5>Accesorios</h5>
+            <p>$25.00</p>
+        </a>        
+
+    
+    </div>
+
+    </section>
+
+    <!--Registrarse en la tienda-->
+
+    <section>
+        <h4>REGISTRATE:</h4>
+        <p>Registrate en nuestra tienda para saber las <strong>novedades y descuentos</strong> en los distintos productos de nuestra tienda</p>
+        <div>
+        <form action="" method="" enctype="" class="dat">
+            <fieldset>
+                <br>
+                <label form="user">Usuario:* </label>
+                <input type="text" id="user" placeholder="Ingresar su usuario" required>
+                <br><br>
+
+                <label form="password">Contraseña:* </label>
+                <input type="password" id="password" placeholder="Ingresar su contraseña" required>
+                <br><br>
+
+                <label form="name">Apellidos y nombre(s):* </label>
+                <input type="text" id="name" required>
+                <br><br>
+
+                <label form="email">Email: </label>
+                <input type="email" id="email">
+                <br><br>
+
+                <label form="phone">Teléfono: </label>
+                <input type="tel" id="phone">
+                <br>
+
+                <p>Sexo: 
+                    <label form="">Masculino</label>
+                    <input type="radio" name="sexo" value="masculino">
+                    <label form="">Femenino</label>
+                    <input type="radio" name="sexo" value="femenino">
+                </p>
+                <!--Botones guardar y cancelar-->
+                <input type="button" value="Guardar">
+                <input type="reset" value="Borrar">
+                <input type="button" value="Cancelar">
+                <br>
+                <p><em>* Campos obligatorios</em></p>
+            </fieldset>
+        </form>
+
+        </div>
+    </section>
+    <!--pie de pagina-->
+
+    <footer>
+    <div class="redsoc">
+        <h3>Redes sociales</h3>
+        <p>Consultados en nuestras redes sociales sobre nuestros productos</p>
+        <a href="www.facebook.com">
+            <img src="./img/facebook.png" alt="face" width="40" height="40">Facebook
+        </a>
+        <a href="https://web.whatsapp.com">
+            <img src="./img/whatsapp.png" alt="" width="40" height="40">WhatsApp
+        </a>
+    </div>
+    </footer>
+</body>
+</html>
